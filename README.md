@@ -13,10 +13,10 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 
 - Windows Server
 - Active Directory
+- Linux
 - DNS
 - DHCP
 - TCP/IP
 - User & Group Management
 - Virtual Machines
-- Windows 10/11
 - Troubleshooting
