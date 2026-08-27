@@ -12,4 +12,5 @@ Before installing the operating systems, the virtual machines were provisioned w
 | **Windows Server 2012 R2** | Windows Server 2012 R2 | 4 | 4 GB | 60 GB | Primary Active Directory Domain Controller |
 | **Windows Server 2016** | Windows Server 2016 | 4 | 4 GB | 60 GB | Secondary Domain Controller / Infrastructure Upgrade |
 | **Linux Client** | Linux Mint | 4 | 2 GB | 20 GB | Sandbox Enterprise Client / Testing Node |
+| **Penetration Testing Client** | Kali Linux | 4 | 2 GB | 20 GB | Security Assessment & Vulnerability Scanning Node |
 
