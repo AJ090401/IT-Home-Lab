@@ -8,6 +8,7 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 - DNS & DHCP
 - Windows Client/Server Administration
 - Networking & Troubleshooting
+- Linux Mint Practice Activities 
 
 ## Skills Practiced
 
