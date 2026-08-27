@@ -1,2 +1,32 @@
-# IT-Home-Lab
-Setting up Windows and Linux virtual machines for fun!
+# Active Directory Home Lab
+
+## Objective
+
+Built a virtualized Windows Server environment to gain hands-on experience with Active Directory and Windows domain administration.
+
+## Environment
+
+- Windows 2016 Server
+- Windows 2012 Server
+- Linux Mint
+- Active Directory Domain Services
+- DNS
+
+## What I Configured
+
+- Installed Active Directory Domain Services
+- Promoted Windows Server to a Domain Controller
+- Created a domain
+- Created users and security groups
+- Configured Organizational Units
+- Joined a Windows client to the domain
+- Configured and tested DNS
+- Tested domain authentication
+
+## Troubleshooting
+
+Document problems encountered during the lab and how they were resolved.
+
+## Screenshots
+
+Screenshots of the lab configuration and testing are included below.
