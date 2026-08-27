@@ -6,26 +6,56 @@ Built a virtualized Windows Server environment to gain hands-on experience with 
 
 ## Environment
 
-- Windows 2012/16 Server
--Linux Mint
-- Active Directory Domain Services
+- Windows Server 2016/2012
+- Linux Mint
+- Active Directory Domain Services (AD DS)
 - DNS
 
 ## What I Configured
 
 - Installed Active Directory Domain Services
 - Promoted Windows Server to a Domain Controller
-- Created a domain
+- Created an Active Directory domain
 - Created users and security groups
-- Configured Organizational Units
-- Joined a Windows client to the domain
+- Configured Organizational Units (OUs)
+- Joined a client computer to the domain
 - Configured and tested DNS
 - Tested domain authentication
 
 ## Troubleshooting
 
-Document problems encountered during the lab and how they were resolved.
+Documented issues encountered during the lab and the steps taken to troubleshoot and resolve them.
 
 ## Screenshots
 
-Screenshots of the lab configuration and testing are included below.
+Screenshots below demonstrate the configuration and functionality of the Active Directory environment.
+
+### Domain Controller
+
+![Domain Controller](screenshots/domain-controller.png)
+
+### Active Directory Users and Computers
+
+![Active Directory](screenshots/active-directory.png)
+
+### DNS Configuration
+
+![DNS](screenshots/dns.png)
+
+### Domain-Joined Client
+
+![Domain Joined Client](screenshots/domain-client.png)
+
+## Skills Demonstrated
+
+- Windows Server Administration
+- Active Directory
+- Active Directory Domain Services (AD DS)
+- DNS
+- User and Group Management
+- Organizational Units
+- Domain Administration
+- Windows Client Administration
+- Networking
+- Troubleshooting
+- Virtualization
