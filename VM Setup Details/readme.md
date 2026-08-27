@@ -7,9 +7,9 @@ This directory contains the core baseline configurations, resource allocations, 
 ## 📊 Hardware & Resource Allocation
 Before installing the operating systems, the virtual machines were provisioned with the following specifications to balance host performance and sandbox stability:
 
-| VM Name | OS / Distribution | vCPUs | RAM | Storage | Primary Network Role |
+| VM Name / Role | OS / Distribution | vCPUs | RAM | Storage | Primary Network Role |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Windows Server 2012 R2** | Windows Server 2012 R2 | 4 | 4 GB | 60 GB | Primary Active Directory Domain Controller |
+| **Windows Server 2016** | Windows Server 2016 | 4 | 4 GB | 60 GB | Secondary Domain Controller / Infrastructure Upgrade |
+| **Linux Client** | Linux Mint | 4 | 2 GB | 20 GB | Sandbox Enterprise Client / Testing Node |
 
-
-| **DC-01** | Windows Server 2012 R2 | 4 | 8 GB | 60 GB | Active Directory Domain Controller / DNS |
-| **SRV-02** | Windows Server 2016 | 4 | 8 GB | 60 GB | Member Server / Core Infrastructure Upgrade |
-| **MINT-CLI-01**| Linux Mint 21.x | 4 | 4 GB | 20 GB | Sandbox Enterprise Client / Testing Node |
