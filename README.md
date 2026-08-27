@@ -8,7 +8,9 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 - DNS & DHCP
 - Windows Client/Server Administration
 - Networking & Troubleshooting
-- Linux Mint Practice Activities 
+- Linux Mint Practice Activities
+- Firewalls
+- Scripts with AD/PowerShell
 
 ## Skills Practiced
 
@@ -21,15 +23,5 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 - User & Group Management
 - Virtual Machines
 - Troubleshooting
-
-
-
-
-## 🐧 Linux Mint Client Deployment
-*(Documentation coming soon)*
-
----
-
-## 🛡️ Windows 2016 Server Information
-*(Documentation coming soon)*
-
+- Firewalls
+- Scripting
