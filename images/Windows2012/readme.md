@@ -9,15 +9,6 @@ Welcome to my enterprise home lab project. This repository documents the deploym
 This section details the base configuration and active integration of the Windows Server 2012 R2 environment.
 
 <details>
-<summary>🌐 Click to expand Active Directory Domain Join screenshots</summary>
-
-<br>
-
-## Windows Server 2012 R2 Deployment
-
-This section details the base configuration and active integration of the Windows Server 2012 R2 environment.
-
-<details>
 <summary>📂 Click to expand Active Directory Domain Join screenshots</summary>
 
 <br>
