@@ -30,23 +30,6 @@ Documented issues encountered during the lab and the steps taken to troubleshoot
 
 Screenshots are located in the images folder to demonstrate the configuration and functionality of the Active Directory environment.
 
-### Domain Controller
-
-![Domain Controller]
-
-### Active Directory Users and Computers
-
-![Active Directory]
-
-### DNS Configuration
-
-![DNS]
-
-### Domain-Joined Client
-
-![Domain Joined Client]
-
-## Skills Demonstrated
 
 - Windows Server Administration
 - Active Directory
