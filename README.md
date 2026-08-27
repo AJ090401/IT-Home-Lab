@@ -71,6 +71,6 @@ After supplying the required administrative credentials, the server successfully
 
 ---
 
-## 🛡️ Active Directory Infrastructure
+## 🛡️ Windows 2016 Server Information
 *(Documentation coming soon)*
 
