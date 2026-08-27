@@ -1,32 +1,22 @@
-# Active Directory Home Lab
+# IT Home Lab
 
-## Objective
+A collection of virtual IT labs I built to develop hands-on experience with Windows Server, Active Directory, DNS, networking, and system administration.
 
-Built a virtualized Windows Server environment to gain hands-on experience with Active Directory and Windows domain administration.
+## Labs
 
-## Environment
+- Active Directory / Domain Controller
+- DNS & DHCP
+- Windows Client/Server Administration
+- Networking & Troubleshooting
 
-- Windows 2016 Server
-- Windows 2012 Server
-- Linux Mint
-- Active Directory Domain Services
+## Skills Practiced
+
+- Windows Server
+- Active Directory
 - DNS
-
-## What I Configured
-
-- Installed Active Directory Domain Services
-- Promoted Windows Server to a Domain Controller
-- Created a domain
-- Created users and security groups
-- Configured Organizational Units
-- Joined a Windows client to the domain
-- Configured and tested DNS
-- Tested domain authentication
-
-## Troubleshooting
-
-Document problems encountered during the lab and how they were resolved.
-
-## Screenshots
-
-Screenshots of the lab configuration and testing are included below.
+- DHCP
+- TCP/IP
+- User & Group Management
+- Virtual Machines
+- Windows 10/11
+- Troubleshooting
