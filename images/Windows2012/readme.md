@@ -31,3 +31,17 @@ After supplying the required administrative credentials, the server successfully
 
 </details>
 
+
+### Step 3: Verifying Domain Account Interactive Logon
+
+To confirm that Active Directory replication and permissions were functioning correctly, an interactive logon session was initiated on the target server. The environment successfully authenticated and loaded the personalized environment for the newly provisioned domain user.
+
+<p align="center"> 
+  <img src="successfulsignin.png" alt="Windows Server Start Screen showing authenticated domain user account" width="85%"/> 
+  <br> 
+  <em>Figure 3: Confirming successful session initialization under the 'Mike Trout' domain credentials.</em> 
+</p>
+
+---
+
+
