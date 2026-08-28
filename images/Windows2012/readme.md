@@ -14,7 +14,7 @@ Before initiating the join, the system properties were accessed to transition th
 <p align="center">
   <img src="setupdomainjoin.png" alt="Windows Server 2012 R2 System Properties" width="85%"/>
   <br>
-  <em>Figure 1: Navigating to System Properties to target the local domain environment.</em>
+  <em>Figure 1: Navigating to System Properties to target the local domain environment by using the IP address of the DC as the primary DNS server on Windows 2012.</em>
 </p>
 
 ---
