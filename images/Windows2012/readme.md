@@ -1,9 +1,3 @@
-# 🛠️ IT Home Lab Environment
-
-Welcome to my enterprise home lab project. This repository documents the deployment, configuration, and management of a hybrid network environment featuring Active Directory, Windows Server, and Linux endpoints.
-
----
-
 ## 🖥️ Windows Server 2012 R2 Deployment
 
 This section details the base configuration and active integration of the Windows Server 2012 R2 environment.
