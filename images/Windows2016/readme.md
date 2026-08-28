@@ -5,7 +5,7 @@
 Using Active Directory Users and Computers, a dedicated layout was created to segregate departmental resources. A new Organizational Unit (OU) was initialized for the target group, followed by the provisioning of a standardized domain user identity within that container.
 
 <p align="center"> 
-  <img src="active_directory_marketing_ou.png" alt="Active Directory Users and Computers Management Console" width="85%"/> 
+  <img src="OU&NewDomainUser.png" alt="Active Directory Users and Computers Management Console" width="85%"/> 
   <br> 
   <em>Figure 2: Creating the Marketing OU and populating it with a new user identity (avengers.local).</em> 
 </p>
