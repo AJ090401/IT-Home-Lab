@@ -1,3 +1,3 @@
-## 🛡️ Windows 11 Domain Controller
+## 🌐 Windows 11 Domain Controller
 *(Documentation coming soon)*
 
