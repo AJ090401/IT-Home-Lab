@@ -9,8 +9,9 @@ Before installing the operating systems, the virtual machines were provisioned w
 
 | VM Name / Role | OS / Distribution | vCPUs | RAM | Storage | Primary Network Role |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Windows Server 2012 R2** | Windows Server 2012 R2 | 4 | 8 GB | 60 GB | Primary Active Directory Domain Controller |
-| **Windows Server 2016** | Windows Server 2016 | 4 | 8 GB | 60 GB | Secondary Domain Controller / Infrastructure Upgrade |
+| **Windows 11 Server** | Windows 11 Server | 4 | 8 GB | 60 GB | Domain Controller |
+| **Windows Server 2012 R2** | Windows Server 2012 R2 | 4 | 8 GB | 60 GB | Joined to Domain Controller (W11 Server) |
+| **Windows Server 2016** | Windows Server 2016 | 4 | 8 GB | 60 GB | Joined to Domain Controller (W11 Server) |
 | **Linux Client** | Linux Mint | 2 | 4 GB | 20 GB | Sandbox Enterprise Client / Testing Node |
 | **Penetration Testing Client** | Kali Linux | 2 | 4 GB | 20 GB | Security Assessment & Vulnerability Scanning Node |
 
