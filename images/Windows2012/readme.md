@@ -16,7 +16,7 @@ This section details the base configuration and active integration of the Window
 To seamlessly integrate the server into the sandbox environment, the system hostname was standardized before completing the domain authentication sequence.
 
 ### Step 1: Configuring Computer Name and Domain Settings
-Before initiating the join, the system properties were accessed to transition the server from a standalone workgroup to the target domain layout.
+Before initiating the join, the system properties were accessed to transition the server from a standalone workgroup to the target domain layout (W11 server)
 
 <p align="center">
   <img src="setupdomainjoin.png" alt="Windows Server 2012 R2 System Properties" width="85%"/>
