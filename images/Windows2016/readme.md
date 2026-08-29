@@ -22,7 +22,7 @@ To automate IP address distribution and ensure stable networking across the sand
 Using the DHCP Management Console, a new IPv4 Scope was provisioned for the internal subnet network shown below. To prevent critical server assets from changing IP addresses dynamically, a dedicated MAC-to-IP reservation mapping was applied for the client workload. Leaving 192.168.80.1 - 192.168.80.149 for static infrastructure
 
 <p align="center">
-  <img src="DHCPScopeProperties.png" alt="DHCP Scope Range Properties" width="85%"/>
+  <img src="dhcpscopecreation.png" alt="DHCP Scope Range Properties" width="85%"/>
   <br>
   <em>Figure 3: Configuring the IPv4 dynamic pool distribution range (192.168.80.150 - 192.168.80.254).</em>
 </p>
@@ -30,7 +30,7 @@ Using the DHCP Management Console, a new IPv4 Scope was provisioned for the inte
 ---
 
 <p align="center">
-  <img src="DHCPReservationDetails.png" alt="DHCP Client Reservation Active Settings" width="85%"/>
+  <img src="dhcpreservation.png" alt="DHCP Client Reservation Active Settings" width="85%"/>
   <br>
   <em>Figure 4: Creating a persistent Reserved Client lease bound to the unique physical MAC address of the target node.</em>
 </p>
