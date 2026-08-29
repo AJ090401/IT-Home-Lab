@@ -44,7 +44,7 @@ Using the DHCP Management Console, a new IPv4 Scope was provisioned for the inte
 
 ---
 
-## 💾 Enterprise Storage Access Control & GPO Drive Map Automation 
+## 💾 Security Group & GPO Drive Map Automation 
 
 <details> 
 <summary>📂 Click to expand Storage Security and Group Policy screenshots</summary> 
