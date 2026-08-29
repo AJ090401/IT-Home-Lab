@@ -52,7 +52,7 @@ To confirm that corporate storage automation and role-based group policies were 
 Following a logon refresh cycle, the **AvengersMarketing** directory successfully mounted as the **M:** network drive over the secure path `\\192.168.80.132\AvengersMarketing`. This verifies that the Domain Controller evaluated the user's group context properly and cleanly pushed down the shared storage repository.
 
 <p align="center"> 
-  <img src="successfuldrivemapping.png" alt="Windows File Explorer showing automated M drive mount" width="85%"/> 
+  <img src="successfulgpodrivemapping.png" alt="Windows File Explorer showing automated M drive mount" width="85%"/> 
   <br> 
   <em>Figure 5: Validating the presence of the mapped enterprise storage partition under the Network Locations zone.</em> 
 </p>
