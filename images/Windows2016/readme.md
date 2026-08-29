@@ -7,7 +7,7 @@ Using Active Directory Users and Computers, a new Organizational Unit (OU) calle
 <p align="center"> 
   <img src="OU&NewDomainUser.png" alt="Active Directory Users and Computers Management Console" width="85%"/> 
   <br> 
-  <em>Figure 2: Creating the Marketing OU and populating it with a new user identity (avengers.local).</em> 
+  <em>Figure 1: Creating the Marketing OU and populating it with a new user identity (avengers.local).</em> 
 </p>
 
 ---
@@ -24,7 +24,7 @@ Using the DHCP Management Console, a new IPv4 Scope was provisioned for the inte
 <p align="center">
   <img src="dhcpscopecreation.png" alt="DHCP Scope Range Properties" width="85%"/>
   <br>
-  <em>Figure 3: Configuring the IPv4 dynamic pool distribution range (192.168.80.150 - 192.168.80.254).</em>
+  <em>Figure 2: Configuring the IPv4 dynamic pool distribution range (192.168.80.150 - 192.168.80.254).</em>
 </p>
 
 ---
@@ -32,7 +32,7 @@ Using the DHCP Management Console, a new IPv4 Scope was provisioned for the inte
 <p align="center">
   <img src="dhcpreservation.png" alt="DHCP Client Reservation Active Settings" width="85%"/>
   <br>
-  <em>Figure 4: Creating a persistent Reserved Client lease bound to the unique physical MAC address of the target computer (Winodws 2012)</em>
+  <em>Figure 3: Creating a persistent Reserved Client lease bound to the unique physical MAC address of the target computer (Windows 2012)</em>
 </p>
 
 </details>
