@@ -63,7 +63,7 @@ To lay the foundation for role-based delegation, a new global Active Directory S
 --- 
 
 ### Step 2: Local Directory Hardening & NTFS Provisioning
-Concurrently, a local folder structure (`C:\AvengersMarketing`) was created on the system drive of the Domain Controller to act as the primary share target. Local NTFS file system permissions were explicitly hardened, assigning the newly created `Marketing-Share-AV` security group **Modify, Read & Execute, List Folder Contents, Read, and Write** capabilities while stripping out generic unauthenticated local access.
+Concurrently, a local folder structure (`C:\AvengersMarketing`) was created on the system drive (for testing purposes instead of a virtual D: Data drive) of the Domain Controller to act as the primary share target. Local NTFS file system permissions were explicitly hardened, assigning the newly created `Marketing-Share-AV` security group **Modify, Read & Execute, List Folder Contents, Read, and Write** capabilities while stripping out generic unauthenticated local access.
 
 <p align="center"> 
   <img src="securitygroupinpermissions.png" alt="NTFS Folder Security Tab Configuration" width="85%"/> 
