@@ -1,7 +1,7 @@
-## 🖥️ Windows Server 2012 R2 Deployment 
+## 🖥️ Windows Server 2012 R2 Domain Integration
 
 <details> 
-<summary>📂 Click to view Active Directory Domain Join steps</summary> 
+<summary>📂 Click to expand Domain Join and User Authentication screenshots</summary> 
 <br> 
 To seamlessly integrate the member server into the sandbox environment, the system configuration was standardized before completing the domain authentication sequence.
 
@@ -25,15 +25,7 @@ After supplying the required administrative credentials, the server successfully
   <em>Figure 2: Verifying successful domain integration with the avengers.local domain.</em> 
 </p> 
 
-</details>
-
 ---
-
-## 🔑 Identity Management & Session Validation
-
-<details>
-<summary>📂 Click to view User Interactive Logon verification</summary>
-<br>
 
 ### Step 3: Verifying Domain Account Interactive Logon 
 To confirm that Active Directory replication and permissions were functioning correctly, an interactive logon session was initiated on the target server. The environment successfully authenticated and loaded the personalized desktop environment for the newly provisioned domain user. 
@@ -48,10 +40,10 @@ To confirm that Active Directory replication and permissions were functioning co
 
 ---
 
-## ⚡ Client-Side Infrastructure Validation
+## 🌐 DHCP Client Reservation Verification
 
 <details>
-<summary>📂 Click to view Network DHCP and Storage GPO verification</summary>
+<summary>📂 Click to expand DHCP Lease IP Allocation screenshots</summary>
 <br>
 
 ### Step 4: Verification of Persistent DHCP Reservation 
@@ -63,7 +55,15 @@ To finalize deployment and guarantee a deterministic network address space, the 
   <em>Figure 4: Verifying the active Ethernet0 network parameters, displaying the successfully assigned 192.168.80.160 IP address and the 'avengers.local' domain suffix.</em> 
 </p> 
 
---- 
+</details>
+
+---
+
+## 💾 Automated Group Policy Drive Mapping
+
+<details>
+<summary>📂 Click to expand Storage Mapped Drive screenshots</summary>
+<br>
 
 ### Step 5: Verification of Automated Network Drive Mapping 
 To confirm that corporate storage automation and role-based group policies were executing correctly on the client side, File Explorer was reviewed within the active user session. 
