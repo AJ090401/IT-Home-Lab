@@ -12,3 +12,28 @@ Using Active Directory Users and Computers, a new Organizational Unit (OU) calle
 
 ---
 
+## 🌐 Windows Server DHCP Infrastructure Configuration
+
+<details>
+<summary>📂 Click to expand DHCP Scope and Client Reservation screenshots</summary>
+<br>
+To automate IP address distribution and ensure stable networking across the sandbox domain environment, a robust DHCP infrastructure was deployed alongside Active Directory services.
+<br><br>
+Using the DHCP Management Console, a new IPv4 Scope was provisioned for the internal subnet network. To prevent critical server assets from changing IP addresses dynamically, a dedicated MAC-to-IP reservation mapping was applied for the client workload.
+
+<p align="center">
+  <img src="DHCPScopeProperties.png" alt="DHCP Scope Range Properties" width="85%"/>
+  <br>
+  <em>Figure 3: Configuring the IPv4 dynamic pool distribution range (192.168.80.150 - 192.168.80.254).</em>
+</p>
+
+---
+
+<p align="center">
+  <img src="DHCPReservationDetails.png" alt="DHCP Client Reservation Active Settings" width="85%"/>
+  <br>
+  <em>Figure 4: Creating a persistent Reserved Client lease bound to the unique physical MAC address of the target node.</em>
+</p>
+
+</details>
+
