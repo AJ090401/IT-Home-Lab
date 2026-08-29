@@ -42,7 +42,7 @@ To finalize deployment and guarantee a deterministic network address space, the 
 Running `ipconfig /all` confirms that the client successfully discarded its automated APIPA configuration and pulled its persistent, reserved lease allocation from the authorized Domain Controller.
 
 <p align="center"> 
-  <img src="ipconfigverification.png" alt="Command Prompt showing ipconfig verification details" width="85%"/> 
+  <img src="successfuldhcpreservation.png" alt="Command Prompt showing ipconfig verification details" width="85%"/> 
   <br> 
   <em>Figure 4: Verifying the active Ethernet0 network parameters, displaying the successfully assigned 192.168.80.160 IP address and the 'avengers.local' domain suffix.</em> 
 </p>
