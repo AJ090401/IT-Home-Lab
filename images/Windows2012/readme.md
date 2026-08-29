@@ -1,7 +1,7 @@
 ## 🖥️ Windows Server 2012 R2 Deployment 
 
 <details> 
-<summary>📂 Click to expand Active Directory Domain Join screenshots</summary> 
+<summary>📂 Click to view steps taken on Windows 2012 Server</summary> 
 <br> 
 To seamlessly integrate the server into the sandbox environment, the system hostname was standardized before completing the domain authentication sequence. 
 
