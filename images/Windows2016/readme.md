@@ -32,7 +32,7 @@ Using the DHCP Management Console, a new IPv4 Scope was provisioned for the inte
 <p align="center">
   <img src="dhcpreservation.png" alt="DHCP Client Reservation Active Settings" width="85%"/>
   <br>
-  <em>Figure 4: Creating a persistent Reserved Client lease bound to the unique physical MAC address of the target node.</em>
+  <em>Figure 4: Creating a persistent Reserved Client lease bound to the unique physical MAC address of the target computer (Winodws 2012)</em>
 </p>
 
 </details>
