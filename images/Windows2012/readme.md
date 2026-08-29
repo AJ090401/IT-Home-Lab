@@ -33,18 +33,28 @@ To confirm that Active Directory replication and permissions were functioning co
   <em>Figure 3: Confirming successful session initialization under the 'Mike Trout' domain credentials.</em> 
 </p> 
 
----
+--- 
 
-### Step 4: Verification of Persistent DHCP Reservation
-
-To finalize deployment and guarantee a deterministic network address space, the TCP/IP stack configuration was verified via the command-line interface. 
-
-Running `ipconfig /all` confirms that the client successfully discarded its automated APIPA configuration and pulled its persistent, reserved lease allocation from the authorized Domain Controller.
-
+### Step 4: Verification of Persistent DHCP Reservation 
+To finalize deployment and guarantee a deterministic network address space, the TCP/IP stack configuration was verified via the command-line interface. Running `ipconfig /all` confirms that the client successfully discarded its automated APIPA configuration and pulled its persistent, reserved lease allocation from the authorized Domain Controller. 
 <p align="center"> 
   <img src="successfuldhcpreservation.png" alt="Command Prompt showing ipconfig verification details" width="85%"/> 
   <br> 
   <em>Figure 4: Verifying the active Ethernet0 network parameters, displaying the successfully assigned 192.168.80.160 IP address and the 'avengers.local' domain suffix.</em> 
+</p>
+
+---
+
+### Step 5: Verification of Automated Network Drive Mapping
+
+To confirm that corporate storage automation and role-based group policies were executing correctly on the client side, File Explorer was reviewed within the active user session. 
+
+Following a logon refresh cycle, the **AvengersMarketing** directory successfully mounted as the **M:** network drive over the secure path `\\192.168.80.132\AvengersMarketing`. This verifies that the Domain Controller evaluated the user's group context properly and cleanly pushed down the shared storage repository.
+
+<p align="center"> 
+  <img src="successfuldrivemapping.png" alt="Windows File Explorer showing automated M drive mount" width="85%"/> 
+  <br> 
+  <em>Figure 5: Validating the presence of the mapped enterprise storage partition under the Network Locations zone.</em> 
 </p>
 
 </details>
