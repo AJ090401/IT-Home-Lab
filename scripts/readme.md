@@ -13,10 +13,7 @@ This directory contains scripts used throughout this home lab. Can be used in Po
 > [!NOTE]
 > Review the contents of each script and adjust any environment variables, domain names, or placeholder parameters before execution.
 
-1. Open your terminal or command prompt.
-2. Navigate to this directory:
-   ```bash
-   cd scripts
-   ```
-3. Ensure the script has proper execution permissions (if applicable) and run it using the appropriate interpreter.
+1. Open a PowerShell terminal
+2. Copy and paste script into PowerShell and run it - **Note - make modifications to the file for usernames, passwords, OUs, etc... if needed
+3. Users should show up in Active Directory once the script completes
 
