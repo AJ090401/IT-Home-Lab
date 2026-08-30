@@ -4,9 +4,9 @@ This directory contains scripts used throughout this home lab. Can be used in Po
 
 ## 📁 Files Overview
 
-*   **`createusers&changepasswordnextlogon.txt`** — A script automated to handle user creation and enforce a password update on their next login
+*   **`createusers&changepasswordnextlogon.txt`** — A script automated to handle user creation and add to a specific OU (if necessary) - Enforces a password update on their next login
 *   **`readme.md`** — This documentation file.
-*   **`scripttocreateusers.txt`** — A text-based reference script or raw list data specifically utilized for creating new user accounts.
+*   **`scripttocreateusers.txt`** — A script used to create users and add to a specific OU (if necessary) - Password is permanent and does not change at next login
 
 ## 🚀 How to Use
 
