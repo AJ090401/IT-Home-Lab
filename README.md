@@ -16,7 +16,9 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 
 - Windows Server
 - Active Directory
-- Linux
+- Domain Joining
+- OUs
+- Group Policy and Security Groups
 - DNS
 - DHCP
 - TCP/IP
@@ -25,3 +27,4 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 - Troubleshooting
 - Firewalls (TBD)
 - Scripting (TBD)
+- Linux
