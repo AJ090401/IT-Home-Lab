@@ -1,0 +1,56 @@
+# Ensure the Active Directory Module is loaded
+Import-Module ActiveDirectory
+
+# Define the base domain DN (automatically detects your current domain)
+$domainDN = (Get-ADDomain).DistinguishedName
+
+# 1. Define the OUs and corresponding Baseball Players
+$OUDefinitions = @(
+    [PSCustomObject]@{ OUName = "Marketing";         FirstName = "Shohei";  LastName = "Ohtani";       Username = "sohtani" }
+    [PSCustomObject]@{ OUName = "Technology";        FirstName = "Aaron";   LastName = "Judge";        Username = "ajudge" }
+    [PSCustomObject]@{ OUName = "Finance";           FirstName = "Derek";   LastName = "Jeter";        Username = "djeter" }
+    [PSCustomObject]@{ OUName = "HR";                FirstName = "Bryce";   LastName = "Harper";       Username = "bharper" }
+    [PSCustomObject]@{ OUName = "Fire Department";   FirstName = "Ken";     LastName = "Griffey";      Username = "kgriffey" }
+)
+
+# Start the sequential password counter at 1002
+$passwordCounter = 1002
+
+# 2. Process OUs and Users
+foreach ($item in $OUDefinitions) {
+    $TargetOUDN = "OU=$($item.OUName),$domainDN"
+    
+    # Check if the OU exists; if not, create it
+    if (-not (Get-ADOrganizationalUnit -Filter "Name -eq '$($item.OUName)'")) {
+        Write-Host "Creating OU: $($item.OUName)..." -ForegroundColor Cyan
+        New-ADOrganizationalUnit -Name $item.OUName -Path $domainDN -ProtectedFromAccidentalDeletion $false
+    } else {
+        Write-Host "OU '$($item.OUName)' already exists." -ForegroundColor Yellow
+    }
+
+    # Generate the sequential password for this specific user
+    $PlainTextPassword = "Sunset${passwordCounter}!"
+    $SecurePassword = ConvertTo-SecureString $PlainTextPassword -AsPlainText -Force
+
+    # Define User Principal Name (UPN) suffix
+    $UPNSuffix = (Get-ADDomain).UserPrincipalNameSuffix
+    $UserUPN = "$($item.Username)@$UPNSuffix"
+
+    # Create the Domain User Account
+    Write-Host "Creating user: $($item.FirstName) $($item.LastName) in $($item.OUName) OU with password $PlainTextPassword..." -ForegroundColor Green
+    
+    New-ADUser -Name "$($item.FirstName) $($item.LastName)" `
+               -GivenName $item.FirstName `
+               -Surname $item.LastName `
+               -SamAccountName $item.Username `
+               -UserPrincipalName $UserUPN `
+               -Path $TargetOUDN `
+               -AccountPassword $SecurePassword `
+               -ChangePasswordAtLogon $false `
+               -Enabled $true
+
+    # Increment the password counter for the next player
+    $passwordCounter++
+}
+
+Write-Host "All OUs verified and Baseball Player domain users created successfully with sequential passwords!" -ForegroundColor Blue
