@@ -1,6 +1,6 @@
 # IT Home Lab
 
-A collection of virtual IT labs I built to develop hands-on experience with Windows Server, Active Directory, DNS, networking, and system administration.
+A collection of virtual IT labs I built to develop hands-on experience with Windows Server, Active Directory, DNS, networking, and system administration. A little bit of Linux will be involved
 
 ## Labs
 
