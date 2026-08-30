@@ -1,10 +1,10 @@
 # Scripts
 
-This directory contains utility scripts used for system administration, user management, and setup automation.
+This directory contains scripts used throughout this home lab. Can be used in PowerShell
 
 ## 📁 Files Overview
 
-*   **`createusers&changepasswordn...`** — A script automated to handle user creation and enforce password updates or modifications.
+*   **`createusers&changepasswordnextlogon...`** — A script automated to handle user creation and enforce a password update on their next login
 *   **`readme.md`** — This documentation file.
 *   **`scripttocreateusers.txt`** — A text-based reference script or raw list data specifically utilized for creating new user accounts.
 
