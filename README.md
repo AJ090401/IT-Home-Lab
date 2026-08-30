@@ -2,6 +2,8 @@
 
 A collection of virtual IT labs I built to develop hands-on experience with Windows Server, Active Directory, DNS, networking, and system administration. A little bit of Linux will be involved
 
+**Click the readme.md file under each OS system folder for more information on what was done for each operating system!
+
 ## Labs
 
 - Active Directory / Domain Controller
