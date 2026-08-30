@@ -8,9 +8,9 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 - DNS & DHCP
 - Windows Client/Server Administration
 - Networking & Troubleshooting
-- Linux Mint Practice Activities
-- Firewalls
-- Scripts with AD/PowerShell
+- Linux Mint Practice Activities (TBD)
+- Firewalls (TBD)
+- Scripts with AD/PowerShell (TBD)
 
 ## Skills Practiced
 
@@ -23,5 +23,5 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 - User & Group Management
 - Virtual Machines
 - Troubleshooting
-- Firewalls
-- Scripting
+- Firewalls (TBD)
+- Scripting (TBD)
