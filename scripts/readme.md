@@ -14,6 +14,6 @@ This directory contains scripts used throughout this home lab. Can be used in Po
 > Review the contents of each script and adjust any environment variables, domain names, or placeholder parameters before execution.
 
 1. Open a PowerShell terminal
-2. Copy and paste script into PowerShell and run it - **Note - make modifications to the file for usernames, passwords, OUs, etc... if needed
+2. Copy and paste script into PowerShell and run it
 3. Users should show up in Active Directory once the script completes
 
