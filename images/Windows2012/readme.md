@@ -52,7 +52,7 @@ To finalize deployment and guarantee a deterministic network address space, the 
 <p align="center"> 
   <img src="successfuldhcpreservation.png" alt="Command Prompt showing ipconfig verification details" width="85%"/> 
   <br> 
-  <em>Figure 4: Verifying the active Ethernet0 network parameters, displaying the successfully assigned 192.168.80.160 IP address and the 'avengers.local' domain suffix.</em> 
+  <em>Figure 1: Verifying the active Ethernet0 network parameters, displaying the successfully assigned 192.168.80.160 IP address and the 'avengers.local' domain suffix.</em> 
 </p> 
 
 </details>
@@ -73,7 +73,7 @@ Following a logon refresh cycle, the **AvengersMarketing** directory successfull
 <p align="center"> 
   <img src="successfulgpomapping.png" alt="Windows File Explorer showing automated M drive mount" width="85%"/> 
   <br> 
-  <em>Figure 5: Validating the presence of the mapped enterprise storage partition under the Network Locations zone.</em> 
+  <em>Figure 1: Validating the presence of the mapped enterprise storage partition under the Network Locations zone.</em> 
 </p> 
 
 </details>
