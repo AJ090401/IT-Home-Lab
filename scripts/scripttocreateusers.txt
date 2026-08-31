@@ -53,4 +53,4 @@ foreach ($item in $OUDefinitions) {
     $passwordCounter++
 }
 
-Write-Host "All OUs verified and Baseball Player domain users created successfully with sequential passwords!" -ForegroundColor Blue
+Write-Host "All OUs verified and domain users created successfully with sequential passwords!"
