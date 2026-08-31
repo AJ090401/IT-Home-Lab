@@ -29,4 +29,4 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 - Troubleshooting
 - Firewalls (TBD)
 - Scripting (TBD)
-- Linux
+- Linux (TBD)
