@@ -1,3 +1,9 @@
+# ⚠️ **IMPORTANT NOTE: THIS SERVER IS NO LONGER IN USE**
+### *The information and documentation below remain active for historical reference and troubleshooting purposes only.*
+
+---
+
+
 ## 🖥️ Windows Server 2012 R2 Domain Integration
 
 <details> 
