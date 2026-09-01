@@ -11,8 +11,8 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 - Windows Client/Server Administration
 - OUs and Security Groups
 - GPO
-- File Shares (TBD)
 - DNS (TBD)
+- File Shares (TBD)
 - Firewalls (TBD)
 - Scripts with AD/PowerShell (TBD)
 - Linux Mint Practice Activities (TBD)
