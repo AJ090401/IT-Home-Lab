@@ -1,49 +1,35 @@
 
 **TBD still working on what can go here**
 
-
-# Active Directory Home Lab
-
 ## Objective
 
-Built a virtualized Windows Server environment to gain hands-on experience with Active Directory and Windows domain administration.
+Built a virtualized Windows Server environment to gain hands-on experience with Active Directory and Windows domain administration
 
 ## Environment
 
-- Windows Server 2016/2012
+- 2 Windows Server 2016 VMs
 - Linux Mint
-- Active Directory Domain Services (AD DS)
-- DNS
+- Kali Linux
 
 ## What I Configured
 
-- Installed Active Directory Domain Services
-- Promoted Windows Server to a Domain Controller
-- Created an Active Directory domain
-- Created users and security groups
-- Configured Organizational Units (OUs)
-- Joined a client computer to the domain
-- Configured and tested DNS
-- Tested domain authentication
+- Installed Active Directory Domain Services - yes 
+- Promoted Windows 2016 Server to a Domain Controller - yes
+- Created an Active Directory domain - yes
+- Created users and security groups - yes
+- Configured Organizational Units (OUs) - yes
+- Joined a client computer to the domain - yes
+- Create a share using the Extra storage E drive - no
+- Configured and tested DNS - no
+- Firewall - no
+- Linux Mint - no
+- Kali Linux - no
 
 ## Troubleshooting
 
-Documented issues encountered during the lab and the steps taken to troubleshoot and resolve them.
+Documented issues encountered during the lab and the steps taken to troubleshoot and resolve them. Screenshots included
+
 
 ## Screenshots
 
-Screenshots are located in the images folder to demonstrate the configuration and functionality of the Active Directory environment.
-
-
-- Windows Server Administration
-- Active Directory
-- Active Directory Domain Services (AD DS)
-- DNS
-- User and Group Management
-- Organizational Units
-- Domain Administration
-- Windows Client Administration
-- Networking
-- Troubleshooting
-- Virtualization
-- Linux Mint
+Screenshots are located in the images folder under the correct VM these actions were performed on to demonstrate the configuration and functionality of the Active Directory environment
