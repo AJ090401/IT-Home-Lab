@@ -9,6 +9,7 @@ Before installing the operating systems, the virtual machines were provisioned w
 
 | VM Name / Role | OS / Distribution | vCPUs | RAM | Storage |Network Adapter| Primary Network Role |
 | :--- | :--- | :--- | :--- | :--- | :--- |:---|
+| **Windows Server 2012 R2** | Windows Server 2012 R2 | 4 | 8 GB | 60 GB |VMnet8 (NAT)| No longer in use |
 | **Windows Server 2012 R2** | Windows Server 2012 R2 | 4 | 8 GB | 60 GB |VMnet8 (NAT)| Joined to Domain Controller (2016 Server) |
 | **Windows Server 2016** | Windows Server 2016 | 4 | 8 GB | 60 GB |VMnet8 (NAT)| Domain Controller |
 | **Linux Client** | Linux Mint | 2 | 4 GB | 20 GB | NAT |Sandbox Enterprise Client / Testing Node |
