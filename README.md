@@ -10,8 +10,8 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 - DHCP
 - Windows Client/Server Administration
 - OUs and Security Groups
-- File Shares
 - GPO
+- File Shares (TBD)
 - DNS (TBD)
 - Firewalls (TBD)
 - Scripts with AD/PowerShell (TBD)
