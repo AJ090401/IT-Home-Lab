@@ -1,5 +1,5 @@
 # ⚠️ **IMPORTANT NOTE: THIS SERVER IS NO LONGER IN USE**
-### *The information and documentation below remain active for reference of things completed in this Home Lab!*
+### *The information and documentation below will remain active for reference of things completed in this Home Lab!*
 
 ---
 
