@@ -35,7 +35,18 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 - Technology-Share-AV
 - HR-Share-AV
 
+
+
 ## File Share (On Windows Server 2016 File Server)
 E:\Shares\AvengersFiles
+
+
+## Drive Mappings through Group Policy
+D:\\FILESERVER2016\AvengersFiles\FireDepartment
+M:\\FILESERVER2016\AvengersFiles\Marketing
+F:\\FILESERVER2016\AvengersFiles\Finance
+T:\\FILESERVER2016\AvengersFiles\Technology
+H:\\FILESERVER2016\AvengersFiles\HR
+
 
 
