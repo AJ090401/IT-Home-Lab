@@ -61,7 +61,7 @@ Using the DHCP Management Console, a new IPv4 Scope was provisioned for the inte
 
 To enforce role-based access control (RBAC) across the domain environment, network storage was provisioned and secured using a dual-layer authentication structure (NTFS and Share permissions) before deploying automated client drive mappings via Group Policy Preferences (GPP). 
 
-### Step 1: Security Group & Directory Hierarchy Creation
+### Security Group & Directory Hierarchy Creation
 
 To lay the foundation for role-based delegation, a new global Active Directory Security Group named `Marketing-Share-AV` was provisioned directly within the **Marketing OU**. The newly created target domain user profile (`Mike Trout`) was then nested inside this group container. This ensures that permissions are cleanly managed at the group identity level rather than assigned individually.
 
@@ -73,7 +73,7 @@ To lay the foundation for role-based delegation, a new global Active Directory S
 
 --- 
 
-### Step 2: Local Directory Hardening & NTFS Provisioning
+### Local Directory Hardening & NTFS Provisioning
 
 Concurrently, a local folder structure (`C:\AvengersMarketing`) was created on the system drive (for testing purposes instead of a virtual D: Data drive) of the Domain Controller to act as the primary share target. Local NTFS file system permissions were explicitly hardened, assigning the newly created `Marketing-Share-AV` security group **Modify, Read & Execute, List Folder Contents, Read, and Write** capabilities while stripping out generic unauthenticated local access.
 
@@ -85,7 +85,7 @@ Concurrently, a local folder structure (`C:\AvengersMarketing`) was created on t
 
 --- 
 
-### Step 3: Directory Services Policy Mapping
+### Directory Services Policy Mapping
 
 Within the **Group Policy Management Console**, a dedicated Group Policy Object (GPO) titled **"Map Marketing Share Drive"** was generated and explicitly linked directly to the root of the **Marketing OU** container. This scoping ensures that the network layout policy only targets and executes for identities residing inside this specific business unit.
 
@@ -97,7 +97,7 @@ Within the **Group Policy Management Console**, a dedicated Group Policy Object 
 
 --- 
 
-### Step 4: Group Policy Preference Orchestration
+### Group Policy Preference Orchestration
 
 Using the Group Policy Management Editor, the automated workspace layout was configured strictly under the **User Configuration** preference path. To resolve active session conflicts and clear hidden credential blocks, the execution action was set to **Replace**, mapping the target UNC network path (`\\192.168.80.132\AvengersMarketing`) to the client workspace under the persistent drive letter identity **M:**.
 
