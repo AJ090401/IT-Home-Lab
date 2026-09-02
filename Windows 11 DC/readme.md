@@ -14,7 +14,7 @@ The Windows 11 client machine **DESKTOP-9K4VKO1** was integrated into the enterp
 * **Dynamic Forward Lookup Registration**
   * A **Host (A)** record was automatically generated inside the primary forward lookup zone (`avengers.local`). The machine bound its unique hostname `DESKTOP-9K4VKO1` to the dynamically assigned IP address **`192.168.80.170`**. A dynamic update lease timestamp was registered on **9/1/2026 at 4:00:00 PM**, proving live communication with the server.
   <p align="center">
-    <img src="../images/forwardlookupzone.png" alt="DNS Manager Forward Lookup Zone Configuration" width="85%"/>
+    <img src="../images/forwardlookupzones.png" alt="DNS Manager Forward Lookup Zone Configuration" width="85%"/>
     <br>
     <em>Figure 1: Verifying active Host (A) records and dynamic update lease timestamps within the forward lookup zone.</em>
   </p>
