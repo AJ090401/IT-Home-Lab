@@ -1,9 +1,9 @@
 # Windows 2016 File Server
 
-## 🖥️ Windows 2016 File Server Integration
+## 🖥️ Share Creation
 
 <details>
-<summary>📂 Click to view more regarding the Share creation</summary>
+<summary>📂 Click to view more regarding the actions perfomed on the file server</summary>
 <br>
 
 To provision centralized storage for the network, an SMB file share named **AvengersFiles** was created on the `FILESERVER2016` member server. As configured in the server tools, this share points locally to `E:\Shares\AvengersFiles` and hosts dedicated sub-folders for each department.
