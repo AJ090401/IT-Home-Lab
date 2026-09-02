@@ -6,15 +6,15 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 
 ## Labs
 
-- Active Directory / Domain Controller
+- Active Directory / Domain Controller (Avengers.local)
 - DHCP
 - Windows Client/Server Administration
 - OUs and Security Groups
 - GPO
-- DNS (TBD)
-- File Shares (TBD)
+- DNS 
+- File Shares 
 - Firewalls (TBD)
-- Scripts with AD/PowerShell (TBD)
+- Scripts with AD/PowerShell 
 - Linux Mint Practice Activities (TBD)
 - Kali Linux  Practice Activities (TBD)
 
