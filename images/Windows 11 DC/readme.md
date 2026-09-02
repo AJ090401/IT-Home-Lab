@@ -2,7 +2,7 @@
 ## 🖥️ Windows 11 Integration
 
 <details> 
-<summary>📂 Click to view more regarding steps taken on W11 DC</summary> 
+<summary>📂 Click to view more regarding actions performed on W11 DC</summary> 
 <br> 
 
 ---
