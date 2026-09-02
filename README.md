@@ -18,3 +18,24 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 - Linux Mint Practice Activities (TBD)
 - Kali Linux  Practice Activities (TBD)
 
+
+
+## OUs Created for Lab
+Fire department
+Marketing
+Finance
+Technology
+HR
+
+
+## Security Groups Created for Lab (mainly used for group policy drive mapping)
+FD-Share-AV
+Marketing-Share-AV
+Finance-Share-AV
+Technology-Share-AV
+HR-Share-AV
+
+## File Share (On Windows Server 2016 File Server)
+E:\
+
+
