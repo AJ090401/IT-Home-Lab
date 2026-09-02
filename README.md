@@ -25,13 +25,13 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 
 
 ## Domain Users
-- Mike Trout
-- Mookie Betts
-- Shohei Ohtani
-- Aaron Judge
-- Derek Jeter
-- Bryce Harper
-- Ken Griffey
+- Mike Trout (Marketing)
+- Mookie Betts (Technology
+- Shohei Ohtani (Marketing)
+- Aaron Judge (Technology)
+- Derek Jeter (Finance)
+- Bryce Harper (HR)
+- Ken Griffey (Fire Department)
 
 
 ## OUs Created for Lab
