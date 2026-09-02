@@ -55,7 +55,7 @@ To confirm that Active Directory replication and permissions were functioning co
 <summary>📂 Click to expand DHCP Lease IP Allocation screenshots</summary>
 <br>
 
-### Step 4: Verification of Persistent DHCP Reservation 
+### Step 1: Verification of Persistent DHCP Reservation 
 
 To finalize deployment and guarantee a deterministic network address space, the TCP/IP stack configuration was verified via the command-line interface. Running `ipconfig /all` confirms that the client successfully discarded its automated APIPA configuration and pulled its persistent, reserved lease allocation from the authorized Domain Controller. 
 
@@ -75,7 +75,7 @@ To finalize deployment and guarantee a deterministic network address space, the 
 <summary>📂 Click to expand Storage Mapped Drive screenshots</summary>
 <br>
 
-### Step 5: Verification of Automated Network Drive Mapping 
+### Step 1: Verification of Automated Network Drive Mapping 
 
 To confirm that corporate storage automation and role-based group policies were executing correctly on the client side, File Explorer was reviewed within the active user session. 
 
