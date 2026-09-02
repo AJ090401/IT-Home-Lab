@@ -36,6 +36,6 @@ Technology-Share-AV
 HR-Share-AV
 
 ## File Share (On Windows Server 2016 File Server)
-E:\Shared\AvengerFiles
+E:\Shares\AvengersFiles
 
 
