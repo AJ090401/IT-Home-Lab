@@ -1,6 +1,6 @@
 # Windows 11 Server Lab Documentation
 
-## 🖥️ Windows 11 Integration
+## 🌐 DNS
 
 <details>
 <summary>📂 Click to view more regarding actions performed on W11</summary>
