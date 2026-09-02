@@ -21,7 +21,7 @@ Built a virtualized Windows Server environment to gain hands-on experience with 
 - Configured Organizational Units (OUs) - yes
 - Joined a client computer to the domain - yes
 - Create a share using the Extra storage E drive - yes
-- Configured and tested DNS - no
+- Configured and tested DNS - yes
 - Firewall - no
 - Linux Mint - no
 - Kali Linux - no
