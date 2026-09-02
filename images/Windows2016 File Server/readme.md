@@ -5,14 +5,15 @@
 <details> 
 <summary>📂 Click to view more regarding the Share creation</summary> 
 <br> 
+  
+To provision centralized storage for the network, an SMB file share named **AvengersFiles** was created on the `FILESERVER2016` member server. This share points locally to `E:\Shares\AvengersFiles` and contains dedicated folders for each department. This E drive was created another NVMe hard disk with 20GB
 
-To ensure seamless name resolution and connectivity for the newly authenticated member server (`FILESERVER2016`), authoritative Host (A) and Pointer (PTR) records were provisioned within the Domain Controller's DNS environment. 
 
 --- 
 
 <br> 
 
-This ensures that users can map and connect to the network share using the server's host name instead of the IP address
+Using Group Policy Management, a drive mapping policy was configured to automatically mount this directory for authorized users. When a member of the Fire Department group, such as **Ken Griffey**, logs into a domain workstation, Group Policy automatically maps the **AvengersFireDepartment** network location directly to their file explorer.
 
 Inside the `E:\Shares\AvengersFiles` directory, department-specific folders were created, each containing a security group and 1-2 users in each security group 
 
