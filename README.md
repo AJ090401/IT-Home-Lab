@@ -42,11 +42,14 @@ E:\Shares\AvengersFiles
 
 
 ## Drive Mappings through Group Policy
-- D:**\\**FILESERVER2016\AvengersFiles\FireDepartment
-- M:\\FILESERVER2016\AvengersFiles\Marketing
-- F:\\FILESERVER2016\AvengersFiles\Finance
-- T:\\FILESERVER2016\AvengersFiles\Technology
-- H:\\FILESERVER2016\AvengersFiles\HR
+```text
+\\FILESERVER2016\AvengersFiles\FireDepartment
+\\FILESERVER2016\AvengersFiles\Marketing
+\\FILESERVER2016\AvengersFiles\Finance
+\\FILESERVER2016\AvengersFiles\Technology
+\\FILESERVER2016\AvengersFiles\HR
+```
+
 
 
 
