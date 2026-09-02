@@ -3,7 +3,7 @@
 ## 🌐 DNS
 
 <details>
-<summary>📂 Click to view more regarding actions performed on W11</summary>
+<summary>📂 Click to expand regarding actions performed on W11</summary>
 <br>
 
 ### Overview of Active Directory & DNS Actions
