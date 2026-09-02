@@ -20,6 +20,20 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 
 
 
+## Domain Admins
+- Administrator
+
+
+## Domain Users
+- Mike Trout
+- Mookie Betts
+- Shohei Ohtani
+- Aaron Judge
+- Derek Jeter
+- Bryce Harper
+- Ken Griffey
+
+
 ## OUs Created for Lab
 - Avengers Corporate (For domain users and computers. The following groups below are listed inside this folder)
 - Fire department
