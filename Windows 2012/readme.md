@@ -11,7 +11,7 @@
 
 To seamlessly integrate the member server into the sandbox environment, the system configuration was standardized before completing the domain authentication sequence.
 
-### Step 1: Configuring Computer Name and Domain Settings 
+### Configuring Computer Name and Domain Settings 
 
 Before initiating the join, the system properties were accessed to transition the server from a standalone workgroup to the target domain layout (W11 server). 
 
@@ -23,7 +23,7 @@ Before initiating the join, the system properties were accessed to transition th
 
 --- 
 
-### Step 2: Successful Domain Authentication 
+### Successful Domain Authentication 
 
 After supplying the required administrative credentials, the server successfully negotiated entry into the infrastructure. 
 
@@ -35,7 +35,7 @@ After supplying the required administrative credentials, the server successfully
 
 ---
 
-### Step 3: Verifying Domain Account Interactive Logon 
+### Verifying Domain Account Interactive Logon 
 
 To confirm that Active Directory replication and permissions were functioning correctly, an interactive logon session was initiated on the target server. The environment successfully authenticated and loaded the personalized desktop environment for the newly provisioned domain user. 
 
@@ -55,7 +55,7 @@ To confirm that Active Directory replication and permissions were functioning co
 <summary>📂 Click to expand DHCP Lease IP Allocation screenshots</summary>
 <br>
 
-### Step 1: Verification of Persistent DHCP Reservation 
+### Verification of Persistent DHCP Reservation 
 
 To finalize deployment and guarantee a deterministic network address space, the TCP/IP stack configuration was verified via the command-line interface. Running `ipconfig /all` confirms that the client successfully discarded its automated APIPA configuration and pulled its persistent, reserved lease allocation from the authorized Domain Controller. 
 
@@ -75,7 +75,7 @@ To finalize deployment and guarantee a deterministic network address space, the 
 <summary>📂 Click to expand Storage Mapped Drive screenshots</summary>
 <br>
 
-### Step 1: Verification of Automated Network Drive Mapping 
+### Verification of Automated Network Drive Mapping 
 
 To confirm that corporate storage automation and role-based group policies were executing correctly on the client side, File Explorer was reviewed within the active user session. 
 
