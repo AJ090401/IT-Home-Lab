@@ -6,7 +6,7 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 
 ## Labs
 
-- Active Directory / Domain Controller (Avengers.local)
+- Active Directory / Domain Controller (Avengers.local) - 2 DCs
 - DHCP
 - Windows Client/Server Administration
 - OUs and Security Groups
