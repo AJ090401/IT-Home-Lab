@@ -14,7 +14,7 @@ To provision centralized storage for the network, an SMB file share named **Aven
 
 <br>
 
-Using Group Policy Management, a drive mapping policy was configured to automatically mount this directory for authorized users based on their Active Directory groups. When a member of the Fire Department group, such as **Ken Griffey**, logs into a domain workstation, Group Policy successfully pushes the configuration and maps the **AvengersFireDepartment** network location directly to their file explorer.
+Using Group Policy Management, a drive mapping policy was configured to automatically mount this directory for authorized users based on their Active Directory groups. When a member of the Fire Department group, such as **Ken Griffey**, logs into a domain workstation, Group Policy successfully pushes the configuration and maps the **AvengersFireDepartment** network location directly to their file explorer. This is similar to what was shown under Windows 2016 DC - Security Groups and Group Policy section
 
 ![User Workstation Mapped Drive View](../images/FDgposuccess.png)
 
