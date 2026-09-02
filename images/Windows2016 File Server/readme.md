@@ -1,5 +1,3 @@
-# Windows 2016 File Server
-
 ## 🖥️ Windows 2016 File Server Integration
 
 <details> 
