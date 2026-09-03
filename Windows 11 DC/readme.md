@@ -9,7 +9,7 @@
 ### Detailed Actions Performed
 
 * **Dynamic Forward Lookup Registration**
-  * A **Host (A)** record was automatically generated inside the primary forward lookup zone (`avengers.local`). The machine bound its unique hostname `DESKTOP-9K4VKO1` to the dynamically assigned IP address **`192.168.80.170`**. A dynamic update lease timestamp was registered on **9/1/2026 at 4:00:00 PM**, proving live communication with the server.
+  * A **Host (A)** record was automatically generated inside the primary forward lookup zone (`avengers.local`). The machine bound its unique hostname `Fileserver2016` to the dynamically assigned IP address **`192.168.80.150`**. A dynamic update lease timestamp was registered on **9/1/2026 at 6:00:00 AM**, proving live communication with the server.
   <p align="center">
     <img src="../images/forwardlookupzones.png" alt="DNS Manager Forward Lookup Zone Configuration" width="85%"/>
     <br>
