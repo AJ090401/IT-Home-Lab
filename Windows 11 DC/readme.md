@@ -6,9 +6,6 @@
 <summary>📂 Click to expand regarding actions performed on W11</summary>
 <br>
 
-### Overview of Active Directory & DNS Actions
-The Windows 11 client machine **DESKTOP-9K4VKO1** was integrated into the enterprise lab environment running under the **avengers.local** domain infrastructure. The system automatically communicated its network profile to the primary Domain Controller (**win-agt0o9hb1rg**), registering its identity across the forwarding database.
-
 ### Detailed Actions Performed
 
 * **Dynamic Forward Lookup Registration**
