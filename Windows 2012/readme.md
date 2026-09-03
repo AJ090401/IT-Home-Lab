@@ -57,7 +57,7 @@ To confirm that Active Directory replication and permissions were functioning co
 
 ### Verification of Persistent DHCP Reservation 
 
-To finalize deployment and guarantee a predictable network address space, the TCP/IP stack configuration was verified via the command-line interface. Running `ipconfig /all` confirms that the client successfully discarded its automated APIPA configuration and pulled its persistent, reserved lease allocation from the authorized Domain Controller. 
+To finalize deployment and guarantee a predictable network address space, the TCP/IP stack configuration was verified via the command-line interface. Running `ipconfig /all` confirms that the client successfully discarded its automated APIPA configuration and pulled its persistent, reserved lease allocation from the authorized Domain Controller (192.168.80.160) 
 
 <p align="center"> 
   <img src="../images/successfuldhcpreservation.png" alt="Command Prompt showing ipconfig verification details" width="85%"/> 
