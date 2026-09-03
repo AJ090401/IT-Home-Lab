@@ -14,7 +14,7 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 - DNS 
 - File Shares 
 - Firewalls (TBD)
-- Scripts with AD/PowerShell 
+- Scripts for AD users on PowerShell 
 - Linux Mint Practice Activities (TBD)
 - Kali Linux  Practice Activities (TBD)
 
