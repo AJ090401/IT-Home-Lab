@@ -13,7 +13,7 @@ To seamlessly integrate the member server into the sandbox environment, the syst
 
 ### Configuring Computer Name and Domain Settings 
 
-Before initiating the join, the system properties were accessed to transition the server from a standalone workgroup to the target domain layout (W11 server). 
+Before initiating the join, the system properties were accessed to transition the server from a standalone workgroup to the target domain layout
 
 <p align="center"> 
   <img src="../images/setupdomainjoin.png" alt="Windows Server 2012 R2 System Properties" width="85%"/> 
