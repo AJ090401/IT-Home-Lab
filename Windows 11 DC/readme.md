@@ -42,7 +42,7 @@
   * Provisioned a custom inbound firewall rule titled **`Secure VMnet8 RDP`** targeting **TCP Port 3389** to handle remote management requests. To prevent unauthorized traffic from outside the hypervisor sandbox, the remote scope of this rule was restricted explicitly to the internal subnet range (**`192.168.80.0/24`**).
   <p align="center">
     <!-- Replace the src path below with your actual firewall screenshot if you have one -->
-    <img src="../images/firewallrules.png" alt="Windows Defender Firewall Inbound Rules Configuration" width="85%"/>
+    <img src="../images/rdpfirewallrule.png" alt="Windows Defender Firewall Inbound Rules Configuration" width="85%"/>
     <br>
     <em>Figure 3: Configuration of the scoped inbound RDP rule restricting remote access exclusively to the local virtual subnet.</em>
   </p>
