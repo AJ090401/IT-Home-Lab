@@ -26,3 +26,27 @@
 
 ---
 </details>
+
+## 🛡️ Windows Defender Firewall
+
+<details>
+<summary>📂 Click to expand regarding firewall rules established on W11</summary>
+<br>
+
+### Detailed Actions Performed
+
+* **Default Profile Hardening**
+  * Configured the global ingress policy across all three network profiles (**Domain**, **Private**, and **Public**) to explicitly **Block Inbound Connections**. This ensures a default-deny posture where all unsolicited traffic is discarded by default, mitigating lateral network movement vulnerabilities.
+
+* **Scoped Inbound Management Rules**
+  * Provisioned a custom inbound firewall rule titled **`Secure VMnet8 RDP`** targeting **TCP Port 3389** to handle remote management requests. To prevent unauthorized traffic from outside the hypervisor sandbox, the remote scope of this rule was restricted explicitly to the internal subnet range (**`192.168.80.0/24`**).
+  <p align="center">
+    <!-- Replace the src path below with your actual firewall screenshot if you have one -->
+    <img src="../images/firewallrules.png" alt="Windows Defender Firewall Inbound Rules Configuration" width="85%"/>
+    <br>
+    <em>Figure 3: Configuration of the scoped inbound RDP rule restricting remote access exclusively to the local virtual subnet.</em>
+  </p>
+
+---
+</details>
+
