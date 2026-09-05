@@ -12,9 +12,10 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 - OUs and Security Groups
 - GPO
 - DNS 
-- File Shares 
+- File Shares
 - Firewalls
-- Scripts for AD users on PowerShell 
+- RDP
+- Scripts for AD users in PowerShell 
 - Linux Mint Practice Activities (TBD)
 - Kali Linux  Practice Activities (TBD)
 
