@@ -6,8 +6,6 @@
 <summary>📂 Click to expand regarding actions performed on W11</summary>
 <br>
 
-### Detailed Actions Performed
-
 * **Dynamic Forward Lookup Registration**
   * A **Host (A)** record was automatically generated inside the primary forward lookup zone (`avengers.local`). The machine bound its unique hostname `Fileserver2016` to the dynamically assigned IP address **`192.168.80.150`**. A dynamic update lease timestamp was registered on **9/1/2026 at 6:00:00 AM**, proving live communication with the server.
   <p align="center">
@@ -33,8 +31,6 @@
 <summary>📂 Click to expand regarding firewall rules established on W11</summary>
 <br>
 
-### Detailed Actions Performed
-
 * **Default Profile Hardening**
   * Configured the global inbound policy across all three network profiles (**Domain**, **Private**, and **Public**) to explicitly **Block Inbound Connections**. This ensures a default-deny posture where all unsolicited traffic is discarded by default, mitigating lateral network movement vulnerabilities.
 
@@ -54,8 +50,6 @@
 <details>
 <summary>📂 Click to expand regarding cross-DC remote desktop verification</summary>
 <br>
-
-### Detailed Actions Performed
 
 * **Remote Desktop Service Activation**
   * Enabled the Remote Desktop feature under the **Server Manager (Local Server)** properties on the target Domain Controller (`WIN-OB5LGGF1EUN` at **`192.168.80.151`**). This transitioned the system status from *Disabled* to **Enabled**, opening up the network stack to listen for incoming session requests on port 3389.
