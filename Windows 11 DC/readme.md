@@ -70,7 +70,7 @@
   </p>
 
 * **Successful Remote Session Verification**
-  * Upon accepting the certificate authentication prompt, a live remote console session was fully established. The target host's desktop environment was brought into a nested active window inside Server Manager, confirming complete end-to-end functionality, proper domain authentication routing, and verifying that the firewall rule is working as intended
+  * Upon accepting the certificate authentication prompt, a live remote console session was fully established. The target host's desktop environment was brought into a nested active window inside Server Manager, confirming complete end-to-end functionality and proper domain authentication routing.
   <p align="center">
     <img src="../images/rdpsuccess.png" alt="Established RDP Session in Server Manager" width="85%"/>
     <br>
