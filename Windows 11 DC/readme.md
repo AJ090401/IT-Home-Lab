@@ -64,7 +64,7 @@
   * Initiated an administrative RDP session from the primary management environment to the target DC (`192.168.80.151`) using the domain administrator account (`avengers\administrator`). 
   * The network successfully initiated a handshake, triggering a Windows security warning indicating that the remote host identity could not be verified by a trusted outside root authority. This certificate error confirms that the traffic successfully traversed the local network, cleared the custom firewall rules, and challenged the initiating client for verification before building the secure graphical terminal wrapper.
   <p align="center">
-    <img src="../images/rdp_certificate_warning.png" alt="Remote Desktop Connection Certificate Authentication Prompt" width="85%"/>
+    <img src="../images/rdpconnection.png" alt="Remote Desktop Connection Certificate Authentication Prompt" width="85%"/>
     <br>
     <em>Figure 4: Intercepting the self-signed TLS/SSL security certificate from the target DC during connection initialization.</em>
   </p>
@@ -72,7 +72,7 @@
 * **Successful Remote Session Verification**
   * Upon accepting the certificate authentication prompt, a live remote console session was fully established. The target host's desktop environment was brought into a nested active window inside Server Manager, confirming complete end-to-end functionality, proper domain authentication routing, and the elimination of the previous network timeout errors.
   <p align="center">
-    <img src="../images/successful_rdp_session.png" alt="Established RDP Session in Server Manager" width="85%"/>
+    <img src="../images/rdpsuccess.png" alt="Established RDP Session in Server Manager" width="85%"/>
     <br>
     <em>Figure 5: Active, authenticated cross-DC remote management session operating within the isolated VMnet8 environment.</em>
   </p>
