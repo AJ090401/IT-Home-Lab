@@ -43,7 +43,7 @@
   <p align="center">
     <img src="../images/rdpfirewallrule.png" alt="Windows Defender Firewall Inbound Rules Configuration" width="85%"/>
     <br>
-    <em>Figure 3: Configuration of the scoped inbound RDP rule restricting remote access exclusively to the local virtual subnet.</em>
+    <em>Figure 1: Configuration of the scoped inbound RDP rule restricting remote access exclusively to the local virtual subnet.</em>
   </p>
 
 ---
@@ -66,15 +66,15 @@
   <p align="center">
     <img src="../images/rdpconnection.png" alt="Remote Desktop Connection Certificate Authentication Prompt" width="85%"/>
     <br>
-    <em>Figure 4: Intercepting the self-signed TLS/SSL security certificate from the target DC during connection initialization.</em>
+    <em>Figure 1: Intercepting the self-signed TLS/SSL security certificate from the target DC during connection initialization.</em>
   </p>
 
 * **Successful Remote Session Verification**
-  * Upon accepting the certificate authentication prompt, a live remote console session was fully established. The target host's desktop environment was brought into a nested active window inside Server Manager, confirming complete end-to-end functionality, proper domain authentication routing, and the elimination of the previous network timeout errors.
+  * Upon accepting the certificate authentication prompt, a live remote console session was fully established. The target host's desktop environment was brought into a nested active window inside Server Manager, confirming complete end-to-end functionality, proper domain authentication routing, and verifying that the firewall rule is working as intended
   <p align="center">
     <img src="../images/rdpsuccess.png" alt="Established RDP Session in Server Manager" width="85%"/>
     <br>
-    <em>Figure 5: Active, authenticated cross-DC remote management session operating within the isolated VMnet8 environment.</em>
+    <em>Figure 2: Active, authenticated cross-DC remote management session operating within the isolated VMnet8 environment.</em>
   </p>
 
 ---
