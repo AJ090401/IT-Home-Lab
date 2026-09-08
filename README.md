@@ -10,7 +10,7 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 - DHCP/DHCP Reservations
 - Windows Client/Server Administration
 - OUs and Security Groups
-- GPO
+- GPOs (Drive and Application access)
 - DNS 
 - File Shares
 - Firewalls
