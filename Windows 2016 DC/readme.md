@@ -23,7 +23,7 @@ Using Active Directory Users and Computers, a new Organizational Unit (OU) calle
 
 ---
 
-## 🌐 Windows Server DHCP Infrastructure Configuration
+## 🌐 Windows Server DHCP Reservation Configuration
 
 <details> 
 <summary>📂 Click to expand DHCP Scope and Client Reservation screenshots</summary> 
