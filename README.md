@@ -27,7 +27,7 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 
 ## Domain Users
 - Mike Trout (Marketing)
-- Mookie Betts (Technology
+- Mookie Betts (Technology)
 - Shohei Ohtani (Marketing)
 - Aaron Judge (Technology)
 - Derek Jeter (Finance)
