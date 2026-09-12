@@ -15,7 +15,8 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 - File Shares
 - Firewalls
 - RDP
-- Scripts for AD users in PowerShell 
+- Scripts for AD users in PowerShell
+- 365 Admin/Entra Connect AD Sync
 - Linux Mint Practice Activities (TBD)
 - Kali Linux  Practice Activities (TBD)
 
