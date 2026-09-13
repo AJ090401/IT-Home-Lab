@@ -1,4 +1,4 @@
-# Windows Server 2025 Hybrid Identity Lab Documentation
+# Incorporating Entra Connect to Sync with Local Active Directory
 
 ## 🔄 UPN & Microsoft Entra Connect Deployment
 
