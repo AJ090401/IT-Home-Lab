@@ -20,7 +20,7 @@
   <p align="center">
     <img src="../images365/successfuladsync.png" alt="PowerShell ADSync Sync Cycle Result" width="85%"/>
     <br>
-    <em>Figure 3: Forcing a delta replication cycle using administrative PowerShell cmdlets to push local database deltas.</em>
+    <em>Figure 3: Forcing a delta sync cmd to update 365 portal information quicker.</em>
   </p>
 
 * **Cloud Identity Provisioning Verification**
