@@ -41,21 +41,13 @@
 <br>
 
 * **Entra Connect Domain and OU Filtering Rules**
-  * Audited the **Domain and OU filtering** policy within the Microsoft Entra Connect configuration. The root topology was set to *Sync selected domains and OUs*. While core structural units under `Avengers Corporate` were checked, an organizational boundary named **`NoSyncUsers`** was explicitly left unchecked.
+  * Audited the **Domain and OU filtering** policy within the Microsoft Entra Connect configuration. The root topology was set to *Sync selected domains and OUs*. While core structural units under `Avengers Corporate` were checked, an organizational boundary named **`NoSyncUsers`** was explicitly left unchecked. After a sync cmd was executed once more, the user Miguel Cabrera was not added to the 365 portal due to him being place into the NoSyncUsers group
   <p align="center">
-    <img src="../images/entra_connect_ou_filtering.png" alt="Microsoft Entra Connect Domain and OU Filtering Scope" width="85%"/>
+    <img src="../images365/nosyncuserssuccess.png" alt="Microsoft Entra Connect Domain and OU Filtering Scope" width="85%"/>
     <br>
     <em>Figure 1: Hardening the sync engine scope by selectively filtering out untrusted or non-production OUs.</em>
   </p>
 
-* **Active Directory Object Isolation Isolation**
-  * Created a localized testing identity for a user named **`Miguel Cabr...`** inside the non-syncing **`NoSyncUsers`** Organizational Unit (OU) in Active Directory Users and Computers. 
-  * Because the parent container falls entirely outside the active scope of the Entra Connect sync rules, the object is explicitly masked from the sync cycle engine. This ensures the account does not provision or materialize inside the active cloud tenant during scheduled delta intervals.
-  <p align="center">
-    <img src="../images/aduc_nosync_ou_validation.png" alt="Active Directory Users and Computers NoSyncUsers OU" width="85%"/>
-    <br>
-    <em>Figure 2: Verifying object placement within a filtered, non-replicating container inside ADUC.</em>
-  </p>
 
 ---
 </details>
