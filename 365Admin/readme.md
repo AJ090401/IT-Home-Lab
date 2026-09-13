@@ -52,7 +52,7 @@
 ---
 </details>
 
-## 👥 Hybrid Distribution List Provisioning & Governance
+## 👥 Hybrid Distribution List Provisioning & Management
 
 <details>
 <summary>📂 Click to expand regarding distribution group creation and authority mapping</summary>
