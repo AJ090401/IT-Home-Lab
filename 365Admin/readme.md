@@ -41,9 +41,9 @@
 <br>
 
 * **Entra Connect Domain and OU Filtering Rules**
-  * Audited the **Domain and OU filtering** policy within the Microsoft Entra Connect configuration. The root topology was set to *Sync selected domains and OUs*. While core structural units under `Avengers Corporate` were checked, an organizational boundary named **`NoSyncUsers`** was explicitly left unchecked. After a sync cmd was executed once more, the user Miguel Cabrera was not added to the 365 portal due to him being place into the NoSyncUsers group
+  * Audited the **Domain and OU filtering** policy within the Microsoft Entra Connect configuration. The root topology was set to *Sync selected domains and OUs*. While core structural units under `Avengers Corporate` were checked, an organizational boundary named **`NoSyncUsers`** was explicitly left unchecked. After a sync cmd was executed once more, the user Miguel Cabrera was not added to the 365 portal due to him being place into the **`NoSyncUsers`** group
   <p align="center">
-    <img src="../images365/nosyncuserssuccess.png" alt="Microsoft Entra Connect Domain and OU Filtering Scope" width="85%"/>
+    <img src="../images365/nosyncusersuccess.png" alt="Microsoft Entra Connect Domain and OU Filtering Scope" width="85%"/>
     <br>
     <em>Figure 1: Hardening the sync engine scope by selectively filtering out untrusted or non-production OUs.</em>
   </p>
