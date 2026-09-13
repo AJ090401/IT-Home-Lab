@@ -44,6 +44,8 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 - Finance
 - Technology
 - HR
+- Applications (Includes Chrome and Firefox)
+- NoSyncUsers
 
 
 ## Security Groups Created for Lab (mainly used for group policy drive mapping)
