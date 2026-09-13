@@ -7,20 +7,13 @@
 <br>
 
 * **Alternative UPN Suffix Registration**
-  * Added the verified cloud domain **`://onmicrosoft.com`** as an alternative User Principal Name (UPN) suffix within the **Active Directory Domains and Trusts** console (`WIN-AGTO09H...`). This ensures local user login IDs align perfectly with their cloud identities to facilitate seamless single sign-on (SSO).
+  * Added the verified cloud domain **`://onmicrosoft.com`** as an alternative User Principal Name (UPN) suffix within the **Active Directory Domains and Trusts** console (`WIN-AGTO09H...`). This ensures local user login IDs align perfectly with their cloud identities to facilitate seamless single sign-on (SSO). Successfully installed and executed the **Microsoft Entra Connect Sync** wizard (`.msi`) directly on the Windows Server 2025 Domain Controller.
   <p align="center">
     <img src="../images365/upn&entraconnectinstalled.png" alt="Active Directory Domains and Trusts UPN Suffixes" width="85%"/>
     <br>
     <em>Figure 1: Registering the cloud tenant routing domain as a valid on-premises authentication suffix.</em>
   </p>
 
-* **Microsoft Entra Connect Installation**
-  * Successfully installed and executed the **Microsoft Entra Connect Sync** wizard (`.msi`) directly on the Windows Server 2025 Domain Controller. The configuration completed successfully, provisioning the local directory schema to map anchor attributes using `mS-DS-ConsistencyGuid`.
-  <p align="center">
-    <img src="../images365/entra_connect_installation.png" alt="Microsoft Entra Connect Configuration Complete" width="85%"/>
-    <br>
-    <em>Figure 2: Successful initial deployment and synchronization pass of the Entra Connect setup wizard.</em>
-  </p>
 
 * **Manual Delta Synchronization Execution**
   * Triggered an immediate synchronization sequence from an administrative **Windows PowerShell** console. Executing the **`Start-ADSyncSyncCycle -PolicyType Delta`** cmdlet returned a status of **`Success`**, forcing an immediate replication path to the cloud.
