@@ -69,7 +69,7 @@
   * The cloud console accurately inherited the precise parameters set in AD, showing **1 Owner** (`Ken Griffey`) and **2 Members** (`Bryce Harper`, `Mike Trout`).
   * The interface successfully threw a hard validation warning enforcing hybrid lifecycle limits: *"You can only manage this group in your on-premises environment. Use Active Directory Users & Groups or Exchange Admin Center tools to edit or delete this group."*
   <p align="center">
-    <img src="../images/m365_distribution_list_details.png" alt="Microsoft 365 Distribution Group Members and Ownership properties" width="85%"/>
+    <img src="../images365/distrolistsynced.png" alt="Microsoft 365 Distribution Group Members and Ownership properties" width="85%"/>
     <br>
     <em>Figure 1: Confirming hybrid group synchronization properties, active membership mapping, and cloud write-protection.</em>
   </p>
