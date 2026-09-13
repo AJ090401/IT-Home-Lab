@@ -34,6 +34,7 @@ A collection of virtual IT labs I built to develop hands-on experience with Wind
 - Derek Jeter (Finance)
 - Bryce Harper (HR)
 - Ken Griffey (Fire Department)
+- Miguel Cabrera (No 365 Sync User)
 
 
 ## OUs Created for Lab
