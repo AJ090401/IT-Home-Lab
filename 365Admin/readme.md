@@ -1,9 +1,9 @@
 # Windows Server 2025 Hybrid Identity Lab Documentation
 
-## 🔄 Microsoft Entra Connect Deployment & Initial Core Sync
+## 🔄 UPN & Microsoft Entra Connect Deployment
 
 <details>
-<summary>📂 Click to expand regarding alternative UPN configuration and initial directory sync</summary>
+<summary>📂 Click to expand regarding alternative UPN configuration and Entra Connect Installation</summary>
 <br>
 
 * **Alternative UPN Suffix Registration**
