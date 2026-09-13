@@ -1,4 +1,4 @@
-# Incorporating Entra Connect to Sync with Local Active Directory
+# 365 Admin and Entra Connect Deployment and Details
 
 ## 🔄 UPN & Microsoft Entra Connect Deployment
 
