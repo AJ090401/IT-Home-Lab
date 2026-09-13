@@ -18,7 +18,7 @@
 * **Manual Delta Synchronization Execution**
   * Triggered an immediate synchronization sequence from an administrative **Windows PowerShell** console. Executing the **`Start-ADSyncSyncCycle -PolicyType Delta`** cmdlet returned a status of **`Success`**, forcing an immediate replication path to the cloud.
   <p align="center">
-    <img src="../images/powershell_delta_sync.png" alt="PowerShell ADSync Sync Cycle Result" width="85%"/>
+    <img src="../images365/successfuladsync.png" alt="PowerShell ADSync Sync Cycle Result" width="85%"/>
     <br>
     <em>Figure 3: Forcing a delta replication cycle using administrative PowerShell cmdlets to push local database deltas.</em>
   </p>
@@ -26,7 +26,7 @@
 * **Cloud Identity Provisioning Verification**
   * Validated end-to-end directory synchronization by auditing the **Microsoft 365 Admin Center** under the **Active Users** directory. Local user identities (including `Aaron Judge`, `Bryce Harper`, `Derek Jeter`, etc.) successfully materialized in the cloud tenant, fully populated with their matching `://onmicrosoft.com` UPNs.
   <p align="center">
-    <img src="../images/m365_active_users_verification.png" alt="Microsoft 365 Admin Center Active Users List" width="85%"/>
+    <img src="../images/userssynced&licenseassigned.png" alt="Microsoft 365 Admin Center Active Users List" width="85%"/>
     <br>
     <em>Figure 4: Confirming local directory objects have successfully provisioned as synchronized cloud identities.</em>
   </p>
