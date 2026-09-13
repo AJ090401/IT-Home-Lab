@@ -7,7 +7,7 @@
 <br>
 
 * **Alternative UPN Suffix Registration**
-  * Added the verified cloud domain **`://onmicrosoft.com`** as an alternative User Principal Name (UPN) suffix within the **Active Directory Domains and Trusts** console (`WServer 2025 DC`). This ensures local user login IDs align perfectly with their cloud identities to facilitate seamless single sign-on (SSO). Successfully installed and executed the **Microsoft Entra Connect Sync** wizard (`.msi`) directly on the Windows Server 2025 Desktop
+  * Added the verified cloud domain **`avengerlabs.onmicrosoft.com`** as an alternative User Principal Name (UPN) suffix within the **Active Directory Domains and Trusts** console (`WServer 2025 DC`). This ensures local user login IDs align perfectly with their cloud identities to facilitate seamless single sign-on (SSO). Successfully installed and executed the **Microsoft Entra Connect Sync** wizard (`.msi`) directly on the Windows Server 2025 Desktop
   <p align="center">
     <img src="../images365/upn&entraconnectinstalled.png" alt="Active Directory Domains and Trusts UPN Suffixes" width="85%"/>
     <br>
